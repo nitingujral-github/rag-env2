@@ -1,5 +1,5 @@
 import os
-
+os.environ["OPENAI_API_KEY"] = "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"
 
 import streamlit as st
 import os
