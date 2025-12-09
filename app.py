@@ -84,5 +84,5 @@ if "retriever" in st.session_state:
                 st.markdown(f"**{i}.** {d.page_content[:500]}...")
                 st.caption(str(d.metadata))
 else:
-    st.info(" Upload PDFs and click 'Process Documents' to start chatting.")
+    st.info(" Upload PDFs acnd click 'Process Documents' to start chatting.")
 
