@@ -1,5 +1,7 @@
 import os
 
+os.environ["OPENAI_API_KEY"] = "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"
+
 import streamlit as st
 import os
 from pathlib import Path
@@ -84,5 +86,5 @@ if "retriever" in st.session_state:
                 st.markdown(f"**{i}.** {d.page_content[:500]}...")
                 st.caption(str(d.metadata))
 else:
-    st.info(" Upload PDFs and click 'Process Documents' to start chatting.")
+    st.info(" Upload PDFs acnd click 'Process Documents' to start chatting.")
 
